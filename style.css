@@ -226,6 +226,8 @@ header {
     left: 0;
     top: 0;
     background-color: rgba(51, 51, 51, 0.75);
+    position: fixed;
+    z-index: 10;
 }
 
 .sidemenu {
@@ -236,6 +238,8 @@ header {
     left: 0;
     top: 0;
     background-color: #333333;
+    position: fixed;
+    z-index: 10;
 }
 
 .sidemenu__navbar-nav {
@@ -259,6 +263,7 @@ header {
 
 .contact-text {
     transform: rotate(180deg);
+    font-weight: 700;
     font-size: 18px;
     line-height: 1.39;
 
@@ -416,24 +421,32 @@ header {
     position: relative;
 }
 
-.slick-current>.productions-img.productions-img::before
-
-/* .slider__item.active>.productions-img.productions-img::before  */
-    {
+/* .slick-current>.productions-img.productions-img::before {
     content: none;
 }
 
-.slick-current>.productions-img.productions-img::after
-
-/* .slider__item.active>.productions-img.productions-img::after */
-    {
+.slick-current>.productions-img.productions-img::after {
     display: block;
 }
 
 .slick-current>.productions-title,
 .slick-current>.productions-date {
     display: none;
+} */
+
+.slider__item:hover>.productions-img::before {
+    display: none;
 }
+
+.slider__item:hover>.productions-img::after {
+    display: block;
+}
+
+.slider__item:hover>.productions-title,
+.slider__item:hover>.productions-date {
+    display: none;
+}
+
 
 .productions-img::after {
     position: absolute;
