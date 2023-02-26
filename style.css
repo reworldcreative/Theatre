@@ -1,8 +1,17 @@
 @font-face {
-    font-family: "Open Sans Condensed";
-    src: url("/fonts/OpenSansCondensed.woff2") format("woff2"),
-        url("/fonts/OpenSansCondensed.woff") format("woff");
+    font-family: 'Open Sans Condensed';
+    src: url('./fonts/OpenSansCondensed-Bold.eot');
+    src: url('./fonts/OpenSansCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/OpenSansCondensed-Bold.woff2') format('woff2'),
+        url('./fonts/OpenSansCondensed-Bold.woff') format('woff'),
+        url('./fonts/OpenSansCondensed-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    /* font-display: swap; */
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
     --bg: #333333;
@@ -106,21 +115,18 @@ header {
     padding-top: 117px;
     margin-right: 91px;
     /* margin-right: 71px; */
-    max-width: fit-content;
+    max-width: max-content;
 }
 
 .hero-title {
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
-    /* font-size: 48px; */
-    font-size: 39px;
+    font-size: 48px;
     line-height: 1.35;
     /* line-height: 65px; */
     letter-spacing: 0.1em;
     text-transform: uppercase;
     margin-bottom: 50px;
-
-    width: 594px;
 }
 
 .hero-text {
@@ -240,6 +246,10 @@ header {
     background-color: #333333;
     position: fixed;
     z-index: 10;
+}
+
+body.sidemenu .show {
+    overflow: hidden;
 }
 
 .sidemenu__navbar-nav {
@@ -704,6 +714,10 @@ header {
     max-width: 100%;
 }
 
+textarea {
+    resize: none;
+}
+
 
 
 /* Footer */
@@ -790,11 +804,9 @@ header {
         font-size: 14px;
     }
 
-    /* .nav-link.tel {
-        left: 40%;
-        top: 50px;
-        position: absolute;
-    } */
+    .nav-link.tel {
+        top: 0px;
+    }
 
     .hero__wrap {
         margin-top: 208px;
