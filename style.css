@@ -93,6 +93,7 @@ header {
     position: relative;
     padding: 50px 405px 214px;
     background-size: cover;
+    overflow: hidden;
     background-image: linear-gradient(0deg, rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85)), url(img/hero-bg.jpg);
 }
 
