@@ -400,6 +400,7 @@ body.sidemenu .show {
 
 .about__numbers__item {
     margin-bottom: 25px;
+    text-align: left;
 }
 
 .about__numbers__item:last-child {
@@ -687,7 +688,7 @@ body.sidemenu .show {
 
 .form-group-col {
     margin-right: 30px;
-    max-width: fit-content;
+    /* max-width: fit-content; */
 }
 
 .form-group-col:last-child {
@@ -784,6 +785,24 @@ textarea {
     .contact-form {
         /* flex: 100%; */
     }
+
+    .form-group-col {
+        max-width: fit-content;
+    }
+
+    .form-group-col {
+        max-width: 45%;
+        margin-right: 0px;
+    }
+
+    .form-group-col:last-child>.form-group {
+        width: auto;
+    }
+
+    .form-group-col:last-child {
+        max-width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 992px) {
@@ -892,13 +911,30 @@ textarea {
         display: flex;
     }
 
+    .form-group-col {
+        max-width: fit-content;
+        margin-right: 30px
+    }
+
+    .form-group-col:last-child>.form-group {
+        width: 100%;
+    }
+
+
+
     .form-group-col:last-child {
         /* max-width: 100px; */
-        max-width: 39%;
+        max-width: 100%;
     }
 
     .support-wrap {
         margin-top: 100px;
+    }
+
+
+    /* Footer */
+    .footer-wrap {
+        padding: 30px 111px 30px 191px;
     }
 
 }
@@ -1015,13 +1051,25 @@ textarea {
         width: auto;
     }
 
+    .form-group-col:last-child {
+        max-width: fit-content;
+    }
+
     .form-group-col:last-child>.form-group {
         width: auto;
     }
 
-
     .support .section-title {
         font-size: 40px;
+    }
+
+    .form-group-col {
+        margin-right: 0px;
+    }
+
+    /* Footer */
+    .footer-wrap {
+        padding: 30px 39px;
     }
 
 }
@@ -1099,6 +1147,11 @@ textarea {
         margin-top: 50px;
     }
 
+    .form-group-col {
+        max-width: 45%;
+        margin-right: 0px;
+    }
+
     .form-group-col:last-child {
         max-width: 100%;
     }
@@ -1120,6 +1173,16 @@ textarea {
     }
 
 
+    /* About */
+    .about__numbers__wrap {
+        padding-left: 0px;
+    }
+
+    .about__numbers__item {
+        text-align: center;
+    }
+
+
     /* Awards */
 
     .awards-year {
@@ -1138,4 +1201,5 @@ textarea {
     .form-group-col {
         max-width: 100%;
     }
+
 }
