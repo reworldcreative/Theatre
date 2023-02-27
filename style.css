@@ -283,6 +283,7 @@ header {
     top: 0;
     background-color: #333333;
     position: fixed;
+    overflow: scroll;
     z-index: 10;
 }
 
