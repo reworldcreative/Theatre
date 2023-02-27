@@ -45,6 +45,7 @@ body {
     font-style: normal;
     background-color: var(--bg);
     color: var(--main);
+    overflow-x: hidden;
 }
 
 .fixed-position {
@@ -670,7 +671,7 @@ header {
     font-style: normal;
     font-weight: 700;
 
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
 }
 
 .support-wrap {
@@ -766,6 +767,7 @@ textarea {
 
 
 /* Footer */
+
 .footer-wrap {
     border-top: 1px solid #565656;
     padding: 30px 0px;
@@ -776,6 +778,8 @@ textarea {
     line-height: 150%;
 
 
+    margin-top: 80px;
+    max-width: 100%;
     color: #989898;
 }
 
@@ -800,6 +804,14 @@ textarea {
 
 
     /* Productions */
+    .productions {
+        padding-left: 191px;
+        padding-right: 111px;
+    }
+
+    .productions-slider {
+        margin-right: 0px;
+    }
 
     .productions-img::after {
         height: 70px;
@@ -820,6 +832,12 @@ textarea {
     .hero {
         padding-left: 190px;
         padding-right: 111px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .hero-text__wrap {
+        margin-right: 25px;
     }
 }
 
@@ -876,7 +894,9 @@ textarea {
     }
 
     .nav-link.tel {
-        /* top: 0px; */
+        top: 0px;
+        right: 0;
+        left: auto;
     }
 
     .hero__wrap {
@@ -905,7 +925,7 @@ textarea {
         padding-left: 190px;
         padding-right: 111px;
         /* margin-right: 119px; */
-        /* margin-left: 190px; */
+        margin-left: 0px;
     }
 
     .about__numbers {
@@ -923,7 +943,7 @@ textarea {
         max-height: 550px;
     }
 
-    .productions>.section-title {
+    .section-title {
         font-size: 48px;
         line-height: 1.35;
     }
@@ -949,11 +969,6 @@ textarea {
 
     .partners {
         padding: 0px 111px 0px 191px;
-    }
-
-    .partners>.section-title {
-        font-size: 48px;
-        line-height: 1.35;
     }
 
     .partners-wrap {
@@ -1001,7 +1016,7 @@ textarea {
 
     /* Footer */
     .footer-wrap {
-        padding: 30px 111px 30px 191px;
+        /* padding: 30px 111px 30px 191px; */
     }
 
 }
@@ -1084,7 +1099,7 @@ textarea {
     }
 
     .partners>.section-title {
-        font-size: 40px;
+        /* font-size: 40px; */
     }
 
 
@@ -1092,7 +1107,7 @@ textarea {
 
 
     .support {
-        padding-bottom: 60px;
+        /* padding-bottom: 60px; */
     }
 
     .contacts {
@@ -1126,10 +1141,6 @@ textarea {
         width: auto;
     }
 
-    .support .section-title {
-        font-size: 48px;
-    }
-
     .form-group-col {
         margin-right: 0px;
         max-width: 33%;
@@ -1137,7 +1148,7 @@ textarea {
 
     /* Footer */
     .footer-wrap {
-        padding: 30px 39px;
+        /* padding: 30px 39px; */
     }
 
     .support {
@@ -1181,7 +1192,7 @@ textarea {
     }
 
     .about>.section-title {
-        font-size: 50px;
+        /* font-size: 50px; */
     }
 
     .about-wrap {
@@ -1299,6 +1310,11 @@ textarea {
     /* Support */
     .form-group-col {
         max-width: 100%;
+    }
+
+    .partners>.section-title,
+    .support>.section-title {
+        font-size: 35px;
     }
 
 }
