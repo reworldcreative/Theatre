@@ -733,7 +733,6 @@ header {
     font-size: 12px;
     line-height: 150%;
 
-
     color: #989898;
 }
 
@@ -1219,6 +1218,10 @@ textarea {
 
     .phones {
         max-width: fit-content;
+    }
+
+    .form-text {
+        text-align: center;
     }
 
 }
