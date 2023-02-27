@@ -1299,6 +1299,14 @@ textarea {
         font-size: 52px;
     }
 
+    .slider__item {
+        max-width: 350px !important;
+    }
+
+    .productions-slider {
+        max-height: 400px;
+    }
+
 
     /* Partners */
 
@@ -1317,6 +1325,16 @@ textarea {
         font-size: 35px;
     }
 
+}
+
+@media screen and (max-width: 350px) {
+    .slider__item {
+        max-width: 250px !important;
+    }
+
+    .productions-slider {
+        max-height: 300px;
+    }
 }
 
 

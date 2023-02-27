@@ -6,15 +6,15 @@ $(document).ready(function () {
     // variableWidth: true,
     responsive: [
       {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 1.5,
-        },
-      },
-      {
         breakpoint: 1500,
         settings: {
           slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1.5,
         },
       },
     ],
