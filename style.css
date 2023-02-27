@@ -327,6 +327,10 @@ header {
 }
 
 .social.active path {
+    /* fill: var(--acent); */
+}
+
+.social a:hover path {
     fill: var(--acent);
 }
 
@@ -668,6 +672,10 @@ header {
 
 .contact-item:last-child {
     margin-bottom: 0px;
+}
+
+.contact-item a:hover {
+    color: var(--acent);
 }
 
 .contact-link {
