@@ -61,7 +61,26 @@ header {
 }
 
 .navbar-toggler-icon {
-    background-image: url("./img/burger.png") !important;
+    width: 6px;
+    height: 6px;
+    background-color: var(--main);
+    margin-left: 0;
+    margin-bottom: 6px;
+    display: flex;
+    /* background-image: url("./img/burger.png") !important; */
+}
+
+.navbar-toggler-icon:first-child {
+    width: 30px;
+}
+
+.navbar-toggler-icon:nth-child(2) {
+    width: 22px;
+}
+
+.navbar-toggler-icon:last-child {
+    width: 15px;
+    margin-bottom: 0;
 }
 
 .navbar-nav {
@@ -1119,6 +1138,11 @@ textarea {
     /* Footer */
     .footer-wrap {
         padding: 30px 39px;
+    }
+
+    .support {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
 }
