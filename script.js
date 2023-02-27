@@ -21,7 +21,7 @@ $(document).ready(function () {
   });
   $(".partners-slider").slick({
     arrows: false,
-    slidesToShow: 2.5,
+    slidesToShow: 4,
     rows: 2,
     slidesPerRow: 1,
 
