@@ -21,7 +21,7 @@ $(document).ready(function () {
   });
   $(".partners-slider").slick({
     arrows: false,
-    slidesToShow: 4,
+    slidesToShow: 2.5,
     rows: 2,
     slidesPerRow: 1,
 
@@ -37,3 +37,11 @@ $(document).ready(function () {
     ],
   });
 });
+
+function disableScroll() {
+  document.body.classList.add("stop-scrolling");
+}
+
+function enableScroll() {
+  document.body.classList.remove("stop-scrolling");
+}
