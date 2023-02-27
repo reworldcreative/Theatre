@@ -1116,6 +1116,21 @@ textarea {
 
 }
 
+@media screen and (max-width: 650px) {
+    .form-group-col {
+        max-width: 45%;
+        margin-right: 0px;
+    }
+
+    .form-group-col:last-child {
+        max-width: 100%;
+    }
+
+    .support .action-btn {
+        margin-bottom: 30px;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .hero {
         padding: 56px 33px 68px 33px;
