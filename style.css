@@ -1222,6 +1222,9 @@ textarea {
 
     .form-text {
         text-align: center;
+        max-width: 80%;
+        margin-left: auto !important;
+        margin-right: auto !important;
     }
 
 }
