@@ -191,7 +191,7 @@ header {
 }
 
 .carousel {
-    width: 350px;
+    width: 370px;
 }
 
 .carousel-inner {
@@ -199,7 +199,7 @@ header {
 }
 
 .carousel-item {
-    width: 350px;
+    width: 370px;
     height: 471px;
     display: block;
     position: relative;
@@ -234,6 +234,9 @@ header {
 
 .carousel-controls {
     margin-top: 34.61px;
+    position: absolute;
+    left: -20px;
+    width: 100%;
 }
 
 .carousel-control-prev,
@@ -253,6 +256,18 @@ header {
 .carousel-control-prev.active,
 .carousel-control-next.active {
     color: var(--main);
+}
+
+.carousel-control-prev img {
+    margin-right: 10px;
+}
+
+.carousel-control-next {
+    /* right: -19% !important; */
+}
+
+.carousel-control-next img {
+    margin-left: 10px;
 }
 
 .carousel-control-next {
@@ -1488,7 +1503,7 @@ textarea {
 }
 
 
-@media screen and (max-height: 1044px) {
+@media screen and (max-height: 700px) {
     .line {
         margin-top: 10px;
         margin-bottom: 10px;
