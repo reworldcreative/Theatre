@@ -671,7 +671,7 @@ header {
     font-family: 'Open Sans Condensed', sans-serif;
     font-style: normal;
     font-weight: 700;
-
+    padding: 0px;
     /* padding-bottom: 80px; */
 }
 
@@ -1220,8 +1220,8 @@ textarea {
         margin-right: 33px;
     }
 
-    .productions>.section-title {
-        font-size: 40px;
+    .section-title {
+        /* font-size: 40px; */
     }
 
 
@@ -1248,7 +1248,7 @@ textarea {
     }
 
     .form-group-col {
-        max-width: 45%;
+        max-width: 46.2%;
         margin-right: 0px;
     }
 
