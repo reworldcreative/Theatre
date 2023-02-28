@@ -941,7 +941,7 @@ textarea {
         margin-top: 100px;
         margin-left: 191px;
         margin-right: 111px;
-        max-height: 550px;
+        /* max-height: 550px; */
     }
 
     .section-title {
@@ -950,7 +950,7 @@ textarea {
     }
 
     .slider__item {
-        width: 442px !important;
+        /* width: 442px !important; */
     }
 
 
@@ -1301,11 +1301,11 @@ textarea {
     }
 
     .slider__item {
-        max-width: 350px !important;
+        /* max-width: 350px !important; */
     }
 
     .productions-slider {
-        max-height: 400px;
+        /* max-height: 400px; */
     }
 
 
@@ -1334,7 +1334,7 @@ textarea {
     }
 
     .productions-slider {
-        max-height: 300px;
+        /* max-height: 300px; */
     }
 }
 
