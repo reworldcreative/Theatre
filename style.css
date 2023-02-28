@@ -459,9 +459,11 @@ header {
     margin-bottom: 0px;
 }
 
+/* Productions */
+
 .productions {
     overflow: hidden;
-    font-family: 'Open Sans Condensed';
+    font-family: 'Open Sans Condensed', sans-serif;
     font-style: normal;
     font-weight: 700;
     color: var(--main);
@@ -1321,8 +1323,7 @@ textarea {
         max-width: 100%;
     }
 
-    .partners>.section-title,
-    .support>.section-title {
+    .section-title {
         font-size: 35px;
     }
 
@@ -1343,5 +1344,54 @@ textarea {
     .line {
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-height: 770px) {
+    .sidemenu {
+        padding: 100px 55px 0px 39px;
+
+    }
+}
+
+@media screen and (max-height: 650px) {
+
+    .sidebar {
+        padding: 0px 61px 45px;
+    }
+
+    .social {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .sidemenu__nav-item {
+        margin-bottom: 20px;
+    }
+
+    .sidemenu__socials {
+        margin-top: 45px;
+    }
+}
+
+@media screen and (min-height: 850px) {
+
+    .sidemenu {
+        padding: 140px 55px 50px 39px;
+    }
+
+    .sidemenu__socials {
+        text-align: center;
+    }
+
+    .sidemenu__social {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .social:last-child {
+        margin-bottom: 30px;
     }
 }
