@@ -36,6 +36,15 @@ $(document).ready(function () {
       {
         breakpoint: 992,
         settings: {
+          slidesToShow: 2.5,
+          rows: 2,
+          slidesPerRow: 1,
+        },
+      },
+
+      {
+        breakpoint: 576,
+        settings: {
           slidesToShow: 2,
           rows: 2,
           slidesPerRow: 1,
