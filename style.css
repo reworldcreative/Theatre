@@ -59,28 +59,29 @@ header {
 .navbar-toggler {
     max-width: 60px;
     border: none;
+    padding: 10px 6.67px;
 }
 
 .navbar-toggler-icon {
     width: 6px;
-    height: 6px;
+    height: 3px;
     background-color: var(--main);
     margin-left: 0;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     display: flex;
     /* background-image: url("./img/burger.png") !important; */
 }
 
 .navbar-toggler-icon:first-child {
-    width: 30px;
+    width: 26px;
 }
 
 .navbar-toggler-icon:nth-child(2) {
-    width: 22px;
+    width: 20px;
 }
 
 .navbar-toggler-icon:last-child {
-    width: 15px;
+    width: 12px;
     margin-bottom: 0;
 }
 
@@ -282,7 +283,7 @@ header {
 
 .carousel-control-next {
     /* left: 70%; */
-    right: -20%;
+    right: -22%;
 }
 
 .sidebar {

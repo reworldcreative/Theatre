@@ -44,7 +44,7 @@
     <section class="hero container-fluid" id="main">
         <header class="container-fluid d-flex justify-content-center">
             <nav class="navbar navbar-expand-lg navbar-dark p-0 w-100">
-                <button class="navbar-toggler p-0" type="button" data-toggle="collapse"
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation" onclick="disableScroll()">
                     <span class="navbar-toggler-icon"></span>
@@ -110,12 +110,16 @@
 
                 <div class="carousel-controls">
                     <a class="carousel-control-prev" href="#carouselSlider" role="button" data-slide="prev">
-                        <img src="./img/Arrow-prev.png" alt="arrow icon">
-                        <span class="">попередня</span>
+                        <div class="d-inline-flex align-items-center">
+                            <img src="./img/Arrow-prev.png" alt="arrow icon">
+                            <span class="">попередня</span>
+                        </div>
                     </a>
                     <a class="carousel-control-next active" href="#carouselSlider" role="button" data-slide="next">
-                        <span class="">наступна</span>
-                        <img src="./img/Arrow-next.png" alt="arrow icon">
+                        <div class="d-inline-flex align-items-center">
+                            <span class="">наступна</span>
+                            <img src="./img/Arrow-next.png" alt="arrow icon">
+                        </div>
                     </a>
                 </div>
             </div>
